@@ -8,8 +8,8 @@
     android:padding="16dp">
 
     <RelativeLayout
-        android:layout_width="370dp"
-        android:layout_height="64dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
         android:id="@+id/newnotebar">
 
         <TextView
@@ -76,5 +76,23 @@
             android:textColorHint="#CAC1C1"
             android:textSize="18sp" />
     </LinearLayout>
+
+    <TextView
+        android:id="@+id/deletebutton"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+
+        android:fontFamily="@font/gilroyextrabold"
+
+        android:text="Delete Note"
+        android:layout_alignParentBottom="true"
+        android:gravity="center"
+        android:textColor="#FA0000"
+        android:textSize="20sp"
+        tools:ignore="RtlCompat"
+        android:visibility="gone"
+        />
+
+
 
 </RelativeLayout>
