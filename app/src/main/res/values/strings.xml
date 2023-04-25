@@ -2,5 +2,6 @@
     <string name="app_name">UNIFIED</string>
     <string name="signup">Sign up today and start optimizing your life.</string>
     <string name="login">Make progress happen</string>
-
+    <string name="navigation_drawer_open">open navigation drawer</string>
+    <string name="navigation_drawer_close"> Close navigation drawer</string>
 </resources>
